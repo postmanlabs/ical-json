@@ -36,3 +36,6 @@ Thumbs.db
 *.LOCAL.*
 *.REMOTE.*
 *.orig
+
+# Prevent test coverage from being added
+.coverage
