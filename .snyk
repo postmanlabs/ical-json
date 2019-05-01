@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:handlebars:20151207':
+    - jsdoc-to-markdown > dmd > ddata > handlebars:
+        patched: '2019-05-01T22:40:14.110Z'
+    - jsdoc-to-markdown > dmd > stream-handlebars > handlebars:
+        patched: '2019-05-01T22:40:14.110Z'
+  'npm:hoek:20180212':
+    - postman-request > hawk > hoek:
+        patched: '2019-05-01T22:40:14.110Z'
+    - postman-request > hawk > sntp > hoek:
+        patched: '2019-05-01T22:40:14.110Z'
+    - postman-request > hawk > boom > hoek:
+        patched: '2019-05-01T22:40:14.110Z'
+    - postman-runtime > postman-request > hawk > hoek:
+        patched: '2019-05-01T22:40:14.110Z'
+    - postman-runtime > postman-request > hawk > sntp > hoek:
+        patched: '2019-05-01T22:40:14.110Z'
+    - postman-request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-01T22:40:14.110Z'
+    - postman-runtime > postman-request > hawk > boom > hoek:
+        patched: '2019-05-01T22:40:14.110Z'
+    - postman-runtime > postman-request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-01T22:40:14.110Z'
+  'npm:lodash:20180130':
+    - cli-table2 > lodash:
+        patched: '2019-05-01T22:40:14.110Z'
+    - packity > lodash:
+        patched: '2019-05-01T22:40:14.110Z'
+  'npm:minimatch:20160620':
+    - jsdoc-to-markdown > jsdoc-parse > file-set > glob > minimatch:
+        patched: '2019-05-01T22:40:14.110Z'
+  'npm:tunnel-agent:20170305':
+    - postman-request > tunnel-agent:
+        patched: '2019-05-01T22:40:14.110Z'
+    - postman-runtime > postman-request > tunnel-agent:
+        patched: '2019-05-01T22:40:14.110Z'
