@@ -43,7 +43,7 @@
     "filesize": "3.3.0",
     "handlebars": "4.0.5",
     "lodash": "4.15.0",
-    "mkdirp": "0.5.1",
+    "mkdirp": "1.0.0",
     "parse-json": "2.2.0",
     "postman-collection": "0.4.14",
     "postman-collection-transformer": "1.7.4",
