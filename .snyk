@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - async > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - eslint > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - eslint-plugin-jsdoc > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - eslint-plugin-lodash > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - postman-runtime > async > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - eslint > table > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - jsdoc > catharsis > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - jsdoc > requizzle > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - postman-collection > schema-compiler > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - postman-runtime > postman-collection > schema-compiler > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - postman-request > form-data > async > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - postman-runtime > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - postman-runtime > postman-request > form-data > async > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - jsdoc-to-markdown > jsdoc-parse > jsdoc-api > jsdoc-75lb > catharsis > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
+    - jsdoc-to-markdown > jsdoc-parse > jsdoc-api > jsdoc-75lb > requizzle > lodash:
+        patched: '2020-05-01T03:50:38.011Z'
