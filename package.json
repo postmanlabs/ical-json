@@ -28,7 +28,9 @@
     "test-unit": "node npm/test-unit.js",
     "test-integration": "node npm/test-integration.js",
     "build-docs": "node npm/build-docs.js",
-    "build-wiki": "node npm/build-wiki.js"
+    "build-wiki": "node npm/build-wiki.js",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Postman Labs <help@getpostman.com> (=)",
   "license": "Apache-2.0",
@@ -54,7 +56,8 @@
     "serialised-error": "1.1.2",
     "shelljs": "0.7.4",
     "word-wrap": "1.1.0",
-    "xmlbuilder": "8.2.2"
+    "xmlbuilder": "8.2.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "eslint": "3.6.0",
@@ -74,5 +77,6 @@
   },
   "engines": {
     "node": ">=4"
-  }
+  },
+  "snyk": true
 }
