@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - postman-request > hawk > hoek:
+        patched: '2021-09-04T00:06:48.442Z'
+    - postman-request > hawk > boom > hoek:
+        patched: '2021-09-04T00:06:48.442Z'
+    - postman-request > hawk > sntp > hoek:
+        patched: '2021-09-04T00:06:48.442Z'
+    - postman-runtime > postman-request > hawk > hoek:
+        patched: '2021-09-04T00:06:48.442Z'
+    - postman-request > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-04T00:06:48.442Z'
+    - postman-runtime > postman-request > hawk > boom > hoek:
+        patched: '2021-09-04T00:06:48.442Z'
+    - postman-runtime > postman-request > hawk > sntp > hoek:
+        patched: '2021-09-04T00:06:48.442Z'
+    - postman-runtime > postman-request > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-04T00:06:48.442Z'
