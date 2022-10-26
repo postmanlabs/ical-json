@@ -70,7 +70,7 @@
     "nsp": "2.6.1",
     "packity": "0.3.2",
     "postman-jsdoc-theme": "0.0.2",
-    "recursive-readdir": "2.0.0"
+    "recursive-readdir": "2.2.3"
   },
   "engines": {
     "node": ">=4"
